@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.main-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.failures-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #eaeaea;
+}
+
+.failure-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Zoom Animation */
+.zoom-animation {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.zoom-item {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.zoom-item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.zoom-item:hover img {
+    transform: scale(1.2);
+}
+.learning-journey {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px;
+}
+
+.learning-journey p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
